@@ -1,6 +1,6 @@
 # Business Analytics
-**[Ch.2] Kernel-based Learning**
->👨‍🏫 본 tutorial은 고려대학교 산업경영공학화 강필성 교수님의 [Business Analytics](https://github.com/pilsung-kang/Business-Analytics-IME654-)수업을 기반으로 작성되었습니다.
+# **[Ch.2] Kernel-based Learning**
+>👨‍🏫 본 tutorial은 고려대학교 산업경영공학화 강필성 교수님의 [Business Analytics](https://github.com/pilsung-kang/Business-Analytics-IME654-) 수업을 기반으로 작성되었습니다.
 >>자세한 자료와 강의는 [여기] 에서 확인할 수 있습니다.
 
 ## 📂 Contents
