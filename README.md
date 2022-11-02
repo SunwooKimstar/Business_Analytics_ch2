@@ -11,8 +11,8 @@
 
 |Linear Kernel|Polynomial Kernel|Radial Basis Function Kernel|
 
-*[x]
-*[ ]
+* [x]
+* [ ]
 
 * Support Vector Machine
   * Support Vector
