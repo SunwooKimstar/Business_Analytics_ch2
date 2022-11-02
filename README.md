@@ -1,5 +1,7 @@
 # [Ch.2] Business_Analytics
 
+:
+
 **Kernel-based Learning**
 -----------------------------
 ### :pushpin: Background
@@ -10,6 +12,8 @@
 > 비선형 데이터를 잘 다루기 위해 kernel 이용
 
 |Linear Kernel|Polynomial Kernel|Radial Basis Function Kernel|
+|:---|:---:|---:| 
+|내용1|내용2|내용3|
 
 * [x]
 * [ ]
@@ -57,7 +61,10 @@
 ### :bar_chart: Result
 
 ------------------------------
-### :bar_chart: Analysius
+### :📊: Analysis
 
+
+----------------------------
+#### :💬:
 ------------------------------
 ### Citation
