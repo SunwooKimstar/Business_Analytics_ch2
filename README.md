@@ -29,8 +29,12 @@
 ## :books: Support Vector Machine
 -----------------------------
 #### 💬 Questions
-- [x] Soft Margin 이용시 penalty term C가 과연 정말 효과적일까?
-- 
+- [x]scaling의 영향
+- Scaler는 다음과 같이 3가지를 이용합니다
+    1. Standard Scaler : 기존 변수를 정규 분포로 변환
+    2. MinMax scaler : 데이터의 값들을 0~1 사이의 값으로 변환
+    3. Robust scaler : 중위수 (median) 과 IQR (사분위수) 를 이용하여 변환
+    
 #### [Tutorial]
 
 ### 📂 Dataset
