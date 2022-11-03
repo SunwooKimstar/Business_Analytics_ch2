@@ -53,7 +53,7 @@
 '<gamma>' , '<c>'
  'gamma'
  <gamma>
-파라미터로는 대표적으로 'gamma'와 'c'가 있으며 이는 각각 ~~을 조절합니다.
+파라미터로는 대표적으로 `gamma`와 `c`가 있으며 이는 각각 ~~을 조절합니다.
 - [x] this is a complete item
 [Demo]
 
