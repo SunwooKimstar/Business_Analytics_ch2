@@ -51,6 +51,7 @@
 
 #### :pushpin: Parameters 
 'gamma', 'c'
+- [x] this is a complete item
 |gamma|c| [Demo]
 
 ```swift
