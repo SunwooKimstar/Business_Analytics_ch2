@@ -87,7 +87,7 @@ voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
 ### 📂 Dataset
 ----------------------------
 * Iris [download](https://www.kaggle.com/datasets/uciml/iris)
-* Stellar Classification Dataset - SDSS17 [download](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17)
+* Star Dataset for Stellar Classification [download](https://www.kaggle.com/datasets/vinesmsuic/star-categorization-giants-and-dwarfs)
 
 ### :bar_chart: Result
 -----------------------------
