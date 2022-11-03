@@ -50,9 +50,9 @@
 :four:
 
 #### :pushpin: Parameters 
-'gamma', 'c'
+'<gamma>', '<c>'
 - [x] this is a complete item
-|gamma|c| [Demo]
+[Demo]
 
 ```swift
 voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
