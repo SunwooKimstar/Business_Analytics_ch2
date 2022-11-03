@@ -50,7 +50,9 @@
 :four:
 
 #### :pushpin: Parameters 
-'<gamma>', '<c>'
+'<gamma>' , '<c>'
+ 'gamma'
+ <gamma>
 - [x] this is a complete item
 [Demo]
 
