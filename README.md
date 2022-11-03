@@ -28,8 +28,8 @@
 |:---|:---:|---:| 
 |내용1|내용2|내용3|
 
-* [x]
-* [ ]
+- [x]
+- [ ]
 
 * Support Vector Machine
   * Support Vector
