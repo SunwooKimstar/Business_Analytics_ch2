@@ -4,6 +4,7 @@
 
 
 ## 📂 Contents
+-----------------------------
 * Background
 * Support Vector Machine
 * Support Vector Regression
@@ -85,7 +86,7 @@ voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
 
 ### 📂 Dataset
 ----------------------------
-* iris [download](https://www.kaggle.com/datasets/uciml/iris)
+* Iris [download](https://www.kaggle.com/datasets/uciml/iris)
 * Stellar Classification Dataset - SDSS17 [download](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17)
 
 ### :bar_chart: Result
