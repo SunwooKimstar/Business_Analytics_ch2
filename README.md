@@ -7,30 +7,18 @@
 -----------------------------
 * Background
 * Support Vector Machine
-* Support Vector Regression
 * Dataset
 * Result
 * Analysis
 
 -----------------------------
 ### :pushpin: Background
-* shatter
->
-
-* VC Dimension
->
 
 * Kernel
 > 비선형 데이터를 잘 다루기 위해 kernel을 이용하고자 하고 있습니다. 
 > kernel의 종류는 다음과 같이 linear, polynomial, Radial Basis Function (RBF) 등이 있습니다.
-> 
 
 |Linear Kernel|Polynomial Kernel|Radial Basis Function Kernel|
-|:---|:---:|---:| 
-|내용1|내용2|내용3|
-
-- [x]
-- [ ]
 
 * Support Vector Machine
   * Support Vector
@@ -45,62 +33,23 @@
 - 
 #### [Tutorial]
 
-:one: 
-
-:two:
-
-:three:
-
-:four:
-
-### :pushpin: Parameters 
-'<gamma>' , '<c>'
- 'gamma'
- <gamma>
-파라미터로는 대표적으로 `gamma`와 `c`가 있으며 이는 각각 ~~을 조절합니다.
-- [x] this is a complete item
-[Demo]
-
-```swift
-voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
-```
-
-
-## :books: Support Vector Regression
-----------------------------
-#### :arrow_upper_right: [Tutorial]
-
-:one: 
-
-:two:
-
-:three:
-
-:four:
-
-#### :pushpin: Parameters 
-|epsilon|C| [Demo]
-* epsilon
-* C
-
-
 ### 📂 Dataset
 ----------------------------
-* Iris [download](https://www.kaggle.com/datasets/uciml/iris)
 * Star Dataset for Stellar Classification [download](https://www.kaggle.com/datasets/vinesmsuic/star-categorization-giants-and-dwarfs)
 
 ### :bar_chart: Result
 -----------------------------
-
+- accuracy : 0.8911
+- Standard Scaler : 0.8911
+- MinMaxScaler : 0.8930
+- Robust Scaler : 0.8928
 
 ### 📊 Analysis
 ------------------------------
+scaling을 진행하지 않은 경우에는 0.8911, standardscaler를 이용한 경우 0.8911, MinMaxScaler를 이용한 경우 0.8930, Robust scaler를 이용한 경우 0.8920으로 약강의 성능 향상이 있긴 했으나 생각보다 크게 차이가 많이 나지 않는 모습을 보였습니다. 데이터 자체의 분포에서 taget이 많이 balancing 되어있었기 때문에 이러한 결과가 나타난 것으로 생각됩니다.
 
 
-#### 💬
-----------------------------
-* 
 
 ### 📂 References
 ------------------------------
-* 
+* https://github.com/pilsung-kang/Business-Analytics-IME654-
