@@ -36,8 +36,9 @@
   * Margin
    - Soft
    - Hard
+
+## :books: Support Vector Machine
 -----------------------------
-## :books: Support Vector Machine 
 #### [Tutorial]
 
 :one: 
@@ -49,14 +50,16 @@
 :four:
 
 #### :pushpin: Parameters 
+'gamma', 'c'
 |gamma|c| [Demo]
 
 ```swift
 voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
 ```
 
-----------------------------
+
 ## :books: Support Vector Regression
+----------------------------
 #### :arrow_upper_right: [Tutorial]
 
 :one: 
@@ -69,22 +72,27 @@ voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
 
 #### :pushpin: Parameters 
 |epsilon|C| [Demo]
+* epsilon
+* C
 
 
------------------------------
 ### :pushpin: Dataset
+----------------------------
 * iris [download]
------------------------------
+
 
 ### :bar_chart: Result
+-----------------------------
 
-------------------------------
+
 ### 📊 Analysis
-
-
-----------------------------
-#### 💬
-* 
 ------------------------------
+
+
+#### 💬
+----------------------------
+* 
+
 ### References
+------------------------------
 * 
