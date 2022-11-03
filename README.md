@@ -34,11 +34,14 @@
 * Support Vector Machine
   * Support Vector
   * Margin
-   - Soft
    - Hard
+   - Soft
 
 ## :books: Support Vector Machine
 -----------------------------
+#### 💬 Questions
+- [x] Soft Margin 이용시 penalty term C가 과연 정말 효과적일까?
+- 
 #### [Tutorial]
 
 :one: 
@@ -82,8 +85,8 @@ voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
 
 ### 📂 Dataset
 ----------------------------
-* iris [download]
-
+* iris [download](https://www.kaggle.com/datasets/uciml/iris)
+* Stellar Classification Dataset - SDSS17 [download](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17)
 
 ### :bar_chart: Result
 -----------------------------
