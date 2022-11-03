@@ -49,7 +49,7 @@
 
 :four:
 
-#### :pushpin: Parameters 
+### :pushpin: Parameters 
 '<gamma>' , '<c>'
  'gamma'
  <gamma>
@@ -80,7 +80,7 @@ voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
 * C
 
 
-### :pushpin: Dataset
+### 📂 Dataset
 ----------------------------
 * iris [download]
 
@@ -97,6 +97,6 @@ voila "[demo] model inference.ipynb" --port ${port} --Voila.ip ${ip}
 ----------------------------
 * 
 
-### References
+### 📂 References
 ------------------------------
 * 
