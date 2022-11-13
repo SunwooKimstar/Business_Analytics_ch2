@@ -72,15 +72,15 @@
 - Scaling
 scaling을 진행하지 않은 경우에는 0.8911, standardscaler를 이용한 경우 0.8911, MinMaxScaler를 이용한 경우 0.8930, Robust scaler를 이용한 경우 0.8920으로 약강의 성능 향상이 있긴 했으나 생각보다 크게 차이가 많이 나지 않는 모습을 보였습니다. 데이터 자체의 분포에서 taget이 많이 balancing 되어있었기 때문에 이러한 결과가 나타난 것으로 생각됩니다.
 
-- Linear kernel
+- **Linear kernel**
 <img src="./images/linear.png">
 SVM에서 parameter C는 주로 error term에 대한 penalty parameter로 쓰게 됩니다. 위의 그래프에서 C의 값이 커짐에 따라 hard margin이 형성되고 margin안에 많은 점이 허용되지 않게 됩니다. 반면에 작은 C의 값을 가지게 되면 soft margin이 형성되게 되고 몇몇 점들이 margin안에 위치하는 것을 허용하게 됩니다. 하지만, linear kernel 이용시 위의 경우 C의 값에 따라 accuracy의 변화는 없는 점을 확인할 수 있습니다. 이는 그래프에서 확인할 수 있듯이 C를 통해 margin 안에 어느 정도의 데이터가 들어오는 것을 허용하는지 조절하고 있고, training example의 정확한 분류와 decision function의 margin 최대화 사이의 tradeoff 조절함에 있어 균형이 맞아 동일한 accuracy가 나오는 것으로 해석할 수 있습니다.
 
-- Polynomial kernel
+- **Polynomial kernel**
 <img src="./images/poly.png">
 Polynomial kernel 이용시 degree별로 대부분의 accuracy값이 일정하게 나타나며, degree가 고정되어 있을 때, C의 영향력이 크지 않은 것으로 나타났습니다. 여기서 값이 높을수록 더 flexible한 boundary를 나타내는 degree의 영향력이 penalty term인 C의 영향력보다 컸다고 할 수 있으며, C = 100 또는 1000, degree = 2의 값을 가질 때, 0.7333으로 가장 높은 accuracy값을 보였음을 알 수 있습니다. polynomial kernel을 쓰는 경우 nonlinear decision boundary를 잘 형성할 수 있기 때문에 이때, flexible한 boundary 생성을 조절하는 degree의 영향력이 컸을 것이라고 말할 수 있습니다.
 
-- RBF kernel
+- **RBF kernel**
 <img src="./images/rbf.png">
 RBF kernel의 경우 gaussian distribution의 유사도를 이용하기 때문에 C와 gamma값에 따라 variance에 영향을 많이 주고, 결론적으로 성능에도 차이가 나타나는 것으로 해석할 수 있습니다.
 
