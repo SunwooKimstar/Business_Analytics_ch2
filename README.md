@@ -5,7 +5,7 @@
 ## 📂 Contents
 -----------------------------
 * Background
-* Support Vector Machine
+* Questions
 * Dataset
 * Result
 * Analysis
@@ -14,36 +14,46 @@
 ### :pushpin: Background
 
 * Support Vector Machine
+
 <img src="./images/svm_classification.png">
+
   * Support Vector
     - 두 클래스 사이의 결정 경계에 위치한 데이터 포인트들
+    
   * Margin
     - 결정 경계와 support vector 사이의 거리
     - 최적의 결정경계는 마진(margin)을 최대화함
     - C 를 이용하여 조절 : c값이 클수록 오류를 허용하지 않는 hard margin에 가까워지고, c값이 작을수록 오류를 어느정도 허용하는 soft margin에 가까워집니다.
+    
    - Hard
     - 개별적인 데이터를 다 놓치지 않고 아웃라이어(outlier)를 허용하지 않는 기준으로 결정 경계를 정해버리면 오버피팅(overfitting) 문제가 발생할 수 있습니다.
+    
    - Soft
     - hard margin과 다르게 마진을 벗어나는 경우를 어느정도 허용합니다.
 
 * Kernel
+-----------------------------
 <img src="./images/kernel.png">
 <img src="./images/map_class.png">
+
 > 비선형 데이터를 잘 다루기 위해 kernel을 이용하고자 하고 있습니다. 
 > kernel의 종류는 다음과 같이 linear, polynomial, Radial Basis Function (RBF) 등이 있습니다.
 <img src="./images/kernel_class.png">
+
 - Linear Kernel
 
 - Polynomial Kernel
+
   $$ K(x,y) = (x \cdot y + c)^d , c>0$$
 
 - Radial Basis Function Kernel|
+
   $$ K(x, y) = exp(- \frac {\|x - y\|^2}{2 \sigma^2}) , \sigma \neq 0$$
 
 - Sigmoid kernel
+
   $$ K(x,y) = tanh(a(x \cdot y + b)), a,b \ge 0 $$
 
-## :books: Support Vector Machine
 -----------------------------
 #### 💬 Questions
 - [x] scaling의 영향
@@ -53,8 +63,7 @@
     3. Robust scaler : 중위수 (median) 과 IQR (사분위수) 를 이용하여 변환
 - [x] 비선형 데이터셋을 이용하는 경우
 - [x] parameter search
-    
-#### [Tutorial]
+
 
 ### 📂 Dataset
 ----------------------------
